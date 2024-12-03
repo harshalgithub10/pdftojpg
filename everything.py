@@ -109,5 +109,5 @@ def download_text(filename):
     return send_from_directory(app.config['TEXT_OUTPUT_FOLDER'], filename)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=6002)
+    app.run(debug=True, port=2002)
 
